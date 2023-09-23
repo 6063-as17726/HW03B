@@ -11,11 +11,11 @@ function draw() {
   fill("red");
   randomSeed(100);
 
-  for (let xpos = 0; xpos <= windowWidth; xpos += maxDiam) {
-    for (let ypos = 0; ypos <= windowHeight; ypos += maxDiam) {
-      //let x = random(minDiam, maxDiam);
-      //let y = random (minDiam, maxDiam);
-      ellipse(xpos, ypos, 10, 10);
+  for (let xpos = 0; xpos <= windowWidth; xpos += random(50, 75)) {
+    for (let ypos = 0; ypos <= windowHeight; ypos += random(50,100)) {
+      let x = random(minDiam, maxDiam);
+      let y = random (minDiam, maxDiam);
+      ellipse(xpos, ypos, x, y);
     }
   }
 }
