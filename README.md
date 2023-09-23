@@ -1,4 +1,7 @@
 # p5.js Template
+This assignment was inspired by Yayoi Kusama. The goal of the project was to create a pattern that consisted of ellipses that are (1)in 2-3 different sizes, (2)non-overlapping shapes, (3) not in straight lines. 
+My process - I started by creating a for loop() to create ellipses all over the canvas. I then added a random() feature to randomize the sizes of the ellipses within a defined range. Lastly, I made the xpos and ypos such that they increment in random values, so that all the ellipses do not fall in a straight line. 
+After I got the code to work, I experimented with the different random values to get a pattern I was happy with. It took me a while to find values to ensure the ellipses did not fall under a straight line, without increasing the gap between ellipses by too much.  
 
 This is a README file that can be used to describe and document your assignment.
 
